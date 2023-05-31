@@ -10,6 +10,7 @@
 
 :root {
   --color-white: white;
+  --color-green: green;
 }
 
 * {
@@ -63,5 +64,5 @@ p {
 }
 
 span {
-  color: green;
+  color: var(--color-green);
 }
