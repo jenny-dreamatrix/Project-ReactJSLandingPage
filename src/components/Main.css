@@ -1,0 +1,28 @@
+main {
+  max-height: 300vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0 0 0;
+}
+
+.what-we-do-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 10rem;
+  row-gap: 1rem;
+  margin: 0 0 6rem 0;
+}
+
+.what-we-do-article {
+  width: 50rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  width: 3.5rem;
+  place-self: start;
+  padding: 0.5rem 0 0 0;
+}

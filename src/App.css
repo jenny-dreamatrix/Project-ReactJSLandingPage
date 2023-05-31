@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(../src/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(../src/fonts/Poppins-SemiBold.ttf);
+}
+
+:root {
+  --color-white: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins-SemiBold";
+}
+
+h1 {
+  font-size: 7rem;
+  color: var(--color-white);
+  text-align: center;
+}
+
+h2 {
+  font-size: 5rem;
+  line-height: 6rem;
+  text-align: center;
+  width: 80%;
+  margin: 0 0 8rem 0;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Poppins-Regular";
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+span {
+  color: green;
+}

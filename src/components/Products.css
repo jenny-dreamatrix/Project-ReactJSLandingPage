@@ -1,0 +1,31 @@
+.grey-box {
+  width: 9rem;
+  background-color: rgb(207, 207, 207);
+}
+
+.products-sec {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.products-fig {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 0 0 1rem 0;
+}
+
+.products-article {
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.product-img {
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+}
